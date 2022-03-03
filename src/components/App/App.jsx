@@ -1,4 +1,4 @@
-import { AppContainer } from "./components/Container.style";
+import { AppContainer } from "./AppContainer.style";
 
 
 export default function App() {
