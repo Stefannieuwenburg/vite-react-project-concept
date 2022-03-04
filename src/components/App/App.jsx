@@ -1,12 +1,15 @@
+
 import { AppContainer } from "./AppContainer.style";
+import {UseEffectButton} from "../Button/UseEffectButton";
 
 
 export default function App() {
-    return (
-        <AppContainer>
-            <h1>hallo</h1>
-            
 
-        </AppContainer>
+    return (
+        <>
+            <AppContainer>
+                <UseEffectButton name={name}  />
+            </AppContainer>
+        </>
     );
 }
